@@ -1,0 +1,10 @@
+*.md linguist-documentation
+*.jpeg binary
+examples/site/*.html linguist-vendored
+
+*.png binary
+*.tsx linguist-detectable
+
+* text=auto eol=lf
+
+Cargo.lock linguist-generated
